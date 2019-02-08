@@ -1,4 +1,4 @@
-FROM cassandra:3.11
+FROM ubuntu:16.04
 RUN mkdir /opt/mdp
 RUN apt update && apt install curl -y \
     && apt install default-jdk -y \
